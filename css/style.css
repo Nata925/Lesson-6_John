@@ -81,7 +81,6 @@ header nav li a{
     font-weight: 500;
     font-size: 20px;
     line-height: 29px;
-
     color: #FFFFFF;
     text-decoration: none;
 }
@@ -130,6 +129,138 @@ header nav li a{
     width: 100%;
     display: block;
 }
+/*Recent posts section*/
+.recent_posts{
+    background: #EDF7FA;
+}
+.container_recent_posts{
+    padding-left: 148px;
+    padding-right: 148px;
+    display: flex;
+    justify-content: space-between;
+}
+.container_recent_posts h5{
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 60px;
+    color: #21243D;
+    padding-top: 7px;
+    padding-left: 148px;
+    padding-right: 519px;
+    padding-bottom: 2px;
+
+}
+.view_all{
+    padding-top: 27px;
+    padding-right: 148px;
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #00A8CC;
+    text-decoration: none;
+
+}
+.container_articles{
+    padding-left: 148px;
+    padding-right: 148px;
+    padding-bottom: 32px;
+    display: flex;
+
+}
+.creating_icons{
+    background: #FFFFFF;
+    max-width: 418px;
+}
+.design_system{
+    background: #FFFFFF;
+    margin-left: 148px;
+    margin-right: 20px;
+    max-width: 418px;
+
+}
+.design_system_h3{
+    padding-left: 23px;
+    padding-right: 23px;
+    padding-top: 24px;
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 38px;
+    color: #21243D;
+
+}
+.design_system_p1 {
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #21243D;
+    padding-left: 23px;
+    padding-right: 21px;
+    padding-top: 17px;
+    padding-bottom: 11px;
+    display: flex;
+}
+.border_1{
+    padding-left: 24px;
+    padding-right: 24px;
+}
+.design_system_p2{
+    padding-left: 23px;
+    padding-right: 23px;
+    padding-bottom: 7px;
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #21243D;
+}
+.creating_icons_h3 {
+    padding-left: 23px;
+    padding-right: 23px;
+    padding-top: 24px;
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 38px;
+    color: #21243D;
+}
+.creating_icons_p3{
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #21243D;
+    padding-left: 23px;
+    padding-right: 21px;
+    padding-top: 17px;
+    padding-bottom: 11px;
+    display: flex;
+}
+.border_2{
+    padding-left: 24px;
+    padding-right: 24px;
+}
+.creating_icons_p4{
+    padding-left: 23px;
+    padding-right: 23px;
+    padding-bottom: 7px;
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #21243D;
+}
+
 .ordinary_banner{
     background-color: black;
     padding-top: 69px;
@@ -480,4 +611,73 @@ footer nav li{
 }
 footer nav li a{
     background: #21243D;
+}
+/*blog page*/
+.blog_page{
+    padding-top: 160px;
+    padding-bottom: 53px;
+    padding-left: 235px;
+    padding-right: 235px;
+    max-width: 682px;
+}
+.blog{
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
+    color: #21243D
+}
+.article_UI{
+   padding-top: 55px;
+}
+.UI_Interaction{
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 44px;
+    color: #21243D;
+    padding-bottom: 16px;
+}
+.article_1{
+    display: flex;
+    padding-bottom: 15px;
+}
+.Feb2019{
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #21243D;
+}
+.border_3{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.Express{
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #8695A4;
+}
+.p_UI{
+    font-family: 'Heebo', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #21243D;
+    padding-bottom: 29px;
+}
+.border_line{
+    border:  1px solid #E0E0E0;
+    display: flex;
+    width: 681px;
+}
+.article_UI_general{
+   padding-top: 32px;
 }
